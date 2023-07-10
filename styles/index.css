@@ -128,3 +128,24 @@ body {
     line-height: 35px;
     text-decoration-line: underline;
 }
+
+/*  our support css start here */
+
+.supports {
+    display: flex;
+    margin-top: 128px;
+    justify-content: space-evenly;
+    background-color: rgba(39, 39, 39, 0.05);
+    padding: 87px 130px;
+    border-radius: 8px;
+    text-align: center;
+    gap: 100px;
+
+}
+
+.sup-desciption {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 24px;
+}
