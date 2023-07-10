@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* common shared css */
@@ -219,4 +220,45 @@ body {
 .photos {
     display: flex;
     gap: 24px;
+}
+
+/* latest deals css start here */
+.the-latest-deals {
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.latest-deals {
+    height: 449px;
+    background-image: url('../images/Rectangle 9.png');
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.latest-deals-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-deals-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 16px 0px 48px;
+}
+
+.email {
+    height: 63px;
+    width: 700px;
+    padding: 22px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-right: 16px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
 }
