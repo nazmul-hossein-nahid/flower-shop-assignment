@@ -56,3 +56,75 @@ body {
 }
 
 /* main section css start here */
+
+/*  our-featured-flowers css start here  */
+.our-featured-flowers {
+    padding-top: 178px;
+}
+
+.featured-flowers-titel {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.featured-flowers-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding: 0px 400px 50px;
+}
+
+.flowers {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.item {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    position: relative;
+}
+
+.flower-img {
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 60px;
+    right: 50px;
+}
+
+.flower-img-3 {
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+}
+
+.item-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.item-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.item-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.item-name {
+    padding-top: 32px;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
