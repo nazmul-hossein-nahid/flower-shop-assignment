@@ -24,6 +24,10 @@ body {
     font-weight: 700;
 }
 
+.primary-color {
+    color: #E55473;
+}
+
 /* bannar area css */
 
 .bannar-area {
@@ -148,4 +152,42 @@ body {
     font-size: 24px;
     font-weight: 600;
     padding-top: 24px;
+}
+
+/* hot deal css start here */
+
+.hot-deal {
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+}
+
+.hot-deal-area {
+    height: 620px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hot-deal-text {
+    text-align: center;
+    padding: 0px 100px;
+}
+
+.hot-deal-titel {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 80px 32px;
+}
+
+.hot-deal-img {
+    padding: 0px 100px;
 }
