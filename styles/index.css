@@ -262,3 +262,38 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
+
+/* footer section css start here */
+.footer {
+    background-color: #111010;
+}
+
+.footer-text {
+    height: 449px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-titel {
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 600px;
+    padding-bottom: 32px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
