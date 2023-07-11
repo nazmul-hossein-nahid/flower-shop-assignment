@@ -155,6 +155,35 @@ body {
     padding-top: 24px;
 }
 
+/* top sale flowers */
+.top-sale-flowers {
+    margin-top: 80px;
+    width: 100%;
+    background-color:#FFF;
+    padding: 100px 50px;
+}
+
+.top-sale-titel {
+    color: #272727;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 64px;
+}
+
+.top-sale-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img{
+    display: block;
+   margin: 20px 20px;
+}
+.top-sale-video video{
+    width: 100%;
+}
 /* hot deal css start here */
 
 .hot-deal {
